@@ -10,23 +10,6 @@ export const metadata: Metadata = {
   title: 'Prototipo Engenharia de Software',
   description: 'Created with Next.js',
   generator: 'Next.js, Tailwind CSS, Shadcn UI, Lucide React, NextAuth, Prisma, PostgreSQL, Vercel',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export default function RootLayout({
